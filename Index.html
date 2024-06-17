@@ -1,0 +1,108 @@
+<! DOCTYPE html>
+<html lang="es">
+<cabeza>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio del Desarrollador</title>
+    <estilo>
+ cuerpo, html {
+ margen: 0;
+ relleno: 0;
+            font-family: 'Arial', sans-serif;
+ overflow-x: oculto;
+        }
+
+ cuerpo {
+ fondo: gradiente lineal (45 grados, #ffcc00, #ff3300, #33ccff, #33cc33);
+ tamaño del fondo: 400% 400%;
+ Animación: Gradiente 10s Facilidad infinita;
+ color: blanco;
+ text-align: centro;
+        }
+
+ @keyframes gradiente {
+ 0% { posición-fondo: 0% 50%; }
+ 50% { posición-fondo: 100% 50%; }
+ 100% { posición-fondo: 0% 50%; }
+        }
+
+ encabezado {
+ relleno: 50px;
+ tamaño de fuente: 2.5em;
+            text-shadow: 2px 2px #000;
+        }
+
+ .contenido {
+ Relleno: 20px;
+ ancho máximo: 800px;
+ margen: automático;
+        }
+
+ .sección {
+ margen: 50px 0;
+ Relleno: 20px;
+ Antecedentes: RGBA (0, 0, 0, 0,5);
+ radio del borde: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+ .sección h2 {
+ margen inferior: 20px;
+ tamaño de fuente: 2em;
+        }
+
+ .sección p {
+ tamaño de fuente: 1.2em;
+ altura de la línea: 1,5 em;
+        }
+
+        .fadeIn {
+ opacidad: 0;
+ animación: fadeIn 2s hacia adelante;
+        }
+
+        @keyframes fadeIn {
+ a { opacidad: 1; }
+        }
+
+        .slideInLeft {
+ transformar: translateX(-100%);
+ animación: slideInLeft 1s hacia adelante;
+        }
+
+        @keyframes slideInLeft {
+            to { transform: translateX(0); }
+        }
+
+        .slideInRight {
+ transformar: translateX(100%);
+ animación: slideInRight 1s hacia adelante;
+        }
+
+        @keyframes slideInRight {
+            to { transform: translateX(0); }
+        }
+    </estilo>
+</cabeza>
+<cuerpo>
+    <encabezado>
+        Bienvenido a mi Portafolio
+    </encabezado>
+    <div class="contenido">
+        <div class="fadeIn de sección">
+            <h2>Sobre Mí</h2>
+            <p>Soy un desarrollador apasionado por la tecnología y el diseño. Me encanta crear aplicaciones web interactivas y funcionales. </p>
+        </Div>
+        <div class="sección slideInLeft">
+            <h2>Proyectos</h2>
+            <p>He trabajado en varios proyectos interesantes, desde aplicaciones móviles hasta sitios web complejos. </p>
+        </Div>
+        <div class="sección slideInRight">
+            <h2>Portafolio</h2>
+            <p>Aquí va el portafolio</p>
+        </Div>
+    </Div>
+</cuerpo>
+</HTML>
+
+ 
